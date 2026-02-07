@@ -8,7 +8,7 @@
 
 :root {
   --bg-color: #f4f3ff;
-  --btn-color: #646cff;
+  --btn-color:  #242424;
   --dark-color: #242424;
   --helper-color: #99b9ff;
 }
@@ -25,6 +25,7 @@ body {
   place-items: center; */
   /* min-width: 32rem; */
   min-height: 100vh;
+  background-color: #0468c0;
 }
 
 h1 {
@@ -46,7 +47,7 @@ textarea {
 
 a {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   letter-spacing: 0.1rem;
   color: var(--btn-color);
   text-decoration: inherit;
