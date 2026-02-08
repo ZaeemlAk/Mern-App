@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [services, setServices] = useState([]);
 
-  const API = "http://localhost:5000";
+  const API = "https://mern-app-bymohd.onrender.com";
 
   const storeTokenInLS = (serverToken) => {
     localStorage.setItem("token", serverToken);
