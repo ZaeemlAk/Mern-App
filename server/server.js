@@ -19,7 +19,7 @@ const errorMiddleware = require("./middlewares/error-middleware");
 // =======================
 const corsOptions = {
   origin: [
-    "http://localhost:5173",
+    "https://mern-app-frontend-pwxp.onrender.com",
     "http://localhost:4173",
     "https://thapatechnical.site",
     "https://www.thapatechnical.site",
